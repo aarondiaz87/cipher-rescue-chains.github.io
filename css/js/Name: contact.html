@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Cipher Rescue Chains</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .contact-section {
+            padding: 60px 0;
+        }
+        .contact-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .contact-card h2 {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-top: 24px;
+        }
+        .contact-info h3 {
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #1a1a2e;
+        }
+        .contact-info p {
+            color: #4a5568;
+            margin-bottom: 12px;
+        }
+        .contact-info a {
+            color: #1a1a2e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: #4a5568;
+        }
+        .contact-info li {
+            margin-bottom: 8px;
+        }
+        .warning {
+            background: #fef5e7;
+            border-left: 4px solid #f59e0b;
+            padding: 16px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .pgp-key {
+            background: #f7fafc;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+        .le-card {
+            border-left: 4px solid #1a1a2e;
+        }
+        .victim-card {
+            border-left: 4px solid #e53e3e;
+        }
+        .media-card {
+            border-left: 4px solid #3182ce;
+        }
+        .page-header {
+            background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            margin-bottom: 16px;
+        }
+        .page-header p {
+            color: #4a5568;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span style="font-weight:800; font-size:20px;">Cipher Rescue Chains</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="verification.html">Verification</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="contact.html#victims" class="btn btn-primary">Report Fraud</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Select the appropriate contact channel below.</p>
+            </div>
+        </section>
+
+        <section class="contact-section" id="victims">
+            <div class="container">
+                <div class="contact-card victim-card">
+                    <h2>🚨 Victims of Cryptocurrency Fraud</h2>
+                    <p>If you have lost funds to a scam, hack, or fraudulent scheme, please contact us immediately. <strong>Time is critical for asset freezing.</strong></p>
+                    
+                    <div class="contact-info">
+                        <h3>Email:</h3>
+                        <p><a href="mailto:victims@cipherrescuechains.com">victims@cipherrescuechains.com</a></p>
+                        
+                        <h3>What to include:</h3>
+                        <ul>
+                            <li>All transaction hashes (TXIDs)</li>
+                            <li>Wallet addresses involved (yours and the scammer's)</li>
+                            <li>Any communication with the scammer (screenshots, emails, messages)</li>
+                            <li>Police report number (if filed)</li>
+                            <li>Estimated loss amount</li>
+                        </ul>
+                        
+                        <div class="warning">
+                            <p><strong>⚠️ Important:</strong> We take confidentiality seriously. All information is protected under strict privacy protocols. <strong>Do not share private keys or seed phrases with anyone.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="le">
+            <div class="container">
+                <div class="contact-card le-card">
+                    <h2>👮 Law Enforcement Agencies</h2>
+                    <p>For verified law enforcement inquiries, including mutual legal assistance and coordination on active investigations.</p>
+                    
+                    <div class="contact-info">
+                        <h3>Email:</h3>
+                        <p><a href="mailto:le.support@cipherrescuechains.com">le.support@cipherrescuechains.com</a></p>
+                        
+                        <h3>PGP Key Fingerprint:</h3>
+                        <div class="pgp-key">9E4C 7A8F 3B2D 1E5F 6A8C 7B9D 0E1F 2A3B 4C5D 6E7F</div>
+                        
+                        <h3>Signal:</h3>
+                        <p>Available upon verification of agency credentials.</p>
+                        
+                        <div class="warning">
+                            <p><strong>Note:</strong> All communications with law enforcement are verified through official agency channels before engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="media">
+            <div class="container">
+                <div class="contact-card media-card">
+                    <h2>📰 Media Inquiries</h2>
+                    <p>For press inquiries, interview requests, and media materials.</p>
+                    
+                    <div class="contact-info">
+                        <h3>Email:</h3>
+                        <p><a href="mailto:media@cipherrescuechains.com">media@cipherrescuechains.com</a></p>
+                        
+                        <h3>Media Kit:</h3>
+                        <p>Available upon request. Includes headshots, logo assets, and company fact sheet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-card">
+                    <h2>📧 General Inquiries</h2>
+                    <p>For non-urgent questions, partnerships, or general information.</p>
+                    
+                    <div class="contact-info">
+                        <h3>Email:</h3>
+                        <p><a href="mailto:contact@cipherrescuechains.com">contact@cipherrescuechains.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <span style="font-weight:700;">Cipher Rescue Chains, LLC</span>
+                    <p>Blockchain intelligence and asset recovery firm established in 2015.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="verification.html">Verification</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="contact.html#victims">Report Fraud</a></li>
+                        <li><a href="contact.html#le">Law Enforcement</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2015–2025 Cipher Rescue Chains, LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
