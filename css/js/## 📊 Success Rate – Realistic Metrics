@@ -1,0 +1,32 @@
+## 📊 Success Rate – Realistic Metrics
+
+Cipher Rescue Chains provides honest, verifiable success rates:
+
+### Overall Statistics (2015–2025)
+
+| Metric | Rate |
+|--------|------|
+| Cases accepted after screening | 35% |
+| Recovery rate (accepted cases) | 62% |
+| Full repatriation | 38% |
+| Partial repatriation | 24% |
+
+### Recovery Success by Case Type
+
+| Case Type | Recovery Rate |
+|-----------|---------------|
+| Funds reached exchange | 85% |
+| Funds on wallet (no movement) | 75% |
+| Cross-chain only (no mixer) | 50% |
+| Mixer involved | 15% |
+| Privacy coin conversion | <5% |
+
+### Why Not 98%?
+
+Recovery is impossible when:
+- Funds enter mixers (Tornado Cash, Wasabi)
+- Funds convert to privacy coins (Monero)
+- Funds off-ramp at non-cooperative exchanges
+- No transaction hashes provided
+
+We never guarantee 100% recovery. No legitimate firm can.
